@@ -1,7 +1,7 @@
 const { request } = require('@mattcbaker/blip')
 const { solver } = require('./solver')
 
-const userId = process.env.MATHBLASTERS_USERID
+const userId = process.env.MATHZBLASTERERZ_USERID
 const apiUrl = 'http://54.85.100.225:8000/api'
 
 async function getQuestion(userId) {
