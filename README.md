@@ -4,7 +4,7 @@ This is a client for the kata https://github.com/tenth10th/mathz-blastererz.
 ## Why the Python server?
 Node can't do math at the precision that the kata demands, so I wrote a little Python server to do the math. You'll notice that the JavaScript **does not**  convert anything to ints or floats, that all happens in the Python server in order to preserve precision.
 
-## Why not tests for each component?
+## Why don't you have tests for each component?
 I originally did that, but changed it because I didn't want to stage an expression tree for each test in the [evaluator](/infix-evaluator.js) and [reducer](/infix-reducer.js) test files. I'm happy with that choice, I've been able to iterate more quickly since making the change to [black box testing](https://en.wikipedia.org/wiki/Black-box_testing).
 
 That being said, the Python server has its own tests and is not an API, but is a component. I wrote tests for it because it's ran as a separate process.
