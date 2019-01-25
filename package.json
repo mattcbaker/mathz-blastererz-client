@@ -1,0 +1,22 @@
+{
+  "name": "mathz-blastererz-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "infix-evaluator.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattcbaker/mathz-blastererz-client.git"
+  },
+  "keywords": [],
+  "author": "mattcbaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattcbaker/mathz-blastererz-client/issues"
+  },
+  "homepage": "https://github.com/mattcbaker/mathz-blastererz-client#readme"
+}
