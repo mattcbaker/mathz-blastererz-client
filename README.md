@@ -1,5 +1,5 @@
 ## Huh?
-This is a client for the kata https://github.com/tenth10th/mathz-blastererz.
+This is a client for the (game|kata) Mathz Blastererz, currently hosted at http://54.85.100.225:8000/.
 
 ## Why the Python server?
 Node can't do math at the precision that the kata demands, so I wrote a little Python server to do the math. You'll notice that the JavaScript **does not**  convert anything to ints or floats, that all happens in the Python server in order to preserve precision.
